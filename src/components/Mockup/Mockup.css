@@ -1,0 +1,144 @@
+
+.logo{
+    margin-top: 20px;
+}
+
+.mockup{
+    margin-top: 20px;
+}
+
+.mockup__head{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.mockup__title{
+    width: 625px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.mockup__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.mockup__item{
+    padding: 20px;
+    border: 2px solid #000;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    border: none;
+    margin-right: 50px;
+}
+
+.mockup__item2{
+    width: 1220px;
+    padding: 20px;
+    border: 2px solid #000;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    border: none;
+    margin-top: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+
+.mockup__item--img2{
+    margin-left: 100px;
+}
+
+.mockup__item:nth-child(2){
+    margin-right: 0;
+}
+
+.item__box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item__number{
+    font-weight: bold;
+}
+
+.mockup__item--head{
+    width: 483px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.mockup__box{
+    display: flex;
+    align-items: center;
+}
+
+.mockup__item--text{
+    width: 306px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333333;
+    opacity: 0.7;
+}
+
+.mockup__item--btn{
+    padding: 15px 22px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    border: none;
+    background-color: #4460EF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 100px;
+}
+
+.mockup__item--btn2{
+    padding: 15px 22px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    border: none;
+    background-color: #4460EF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.modal-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal__img{
+    position: relative;
+    right: 50px;
+}
+
+.modal__link{
+    padding: 10px;
+    background-color: #4460EF;
+    width: 100%;
+    text-align: center;
+    color: #F1F1F1;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}

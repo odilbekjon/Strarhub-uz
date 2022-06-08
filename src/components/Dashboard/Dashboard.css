@@ -1,0 +1,220 @@
+.dashboard__section{
+    border-right: 1px solid #000;
+}
+
+.header__logo{
+    font-size: 25px;
+}
+
+.linking{
+    margin-top: 10px;
+}
+
+.header__logos{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.dashboard__box{
+    display: flex;
+}
+
+#dashboard__header{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.dashboard__head{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 24px;
+    color: #F9FDFF;
+    margin-left: 10px;
+    line-clamp: 20px;
+    padding-right: 50px;
+}
+
+.dashboard__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.dashboard__item{
+    /*margin-left: 50px;*/
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.dashboard__link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    border: none;
+    padding: 10px;
+    display: block;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+.bxs-dashboard, .bxs-user-account, .bx-book , .bx-group, .bx-calendar-week, .bxs-inbox, .bx-history, .bx-search-alt-2{
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.active{
+    color: blue;
+}
+
+.bxs-home, .bx-shopping-bag, .bxl-zoom, .bx-help-circle{
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.dashboard__right{
+    width: 100;
+    height: 50px;
+    padding: 10px;
+    background-color: #9351E5;
+}
+
+.bx-menu{
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.box__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.box__item--img{
+    margin-right: 15px;
+}
+
+.box__item{
+    width: 280px;
+    display: flex;
+    margin-top: 15px;
+    margin-right: 30px;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    border: none;
+    background-color: #E7E7E7;
+}
+
+.box__item--title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.box__item--title::before{
+    content: "1-dars";
+    display: block;
+    opacity: 0.7;
+    margin-bottom: 5px;
+}
+
+.box__item--title2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: black;
+}
+
+.box__item--title2::before{
+    content: "2-dars";
+    display: block;
+    opacity: 0.7;
+    margin-bottom: 5px;
+    color: blue;
+}
+
+.iconcha{
+    width: 50px;
+    height: 50px;
+    background-image: url(../../Assets/right.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    border-radius: 10px;
+}
+
+.iconcha2{
+    width: 50px;
+    height: 50px;
+    background-image: url(../../Assets/left.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    border-radius: 10px;
+}
+
+.carousel__image{
+    border-radius: 10px;
+}
+
+.dashboard__wrapper{
+    display: flex;
+}
+
+.dashboard__rights{
+    width: 350px;
+    height: 80vh;
+    display: flex;
+    align-self: flex-end;
+    background-color: #E7E7E7;
+    /* margin-top: 90px; */
+    border-radius: 5px;
+}
+
+.dashboard__form{
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 12px;
+    margin-left: 30px;
+}
+
+.form___input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #999;
+}
+
+.form__button{
+    width: 50px;
+    height: 45px;
+    /* padding: 5px; */
+    border: 2px solid #000;
+    background-color: #4460EF;
+    border: none;
+    margin-left: 20px;
+}
+
+.bxl-telegram{
+    color: #F9FDFF;
+}
